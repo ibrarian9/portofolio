@@ -1,3 +1,5 @@
+import React from "react";
+
 function RecentWork() {
   const daftarGambar = [
     "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
@@ -13,7 +15,7 @@ function RecentWork() {
       <div className="container">
         <h1>Recent Work</h1>
         <div className="row mt-5">
-          {daftarGambar.map(function (gambar) {
+          {daftarGambar.map(function(gambar) {
             return (
               <div className="col-4 mt-4 gambarku">
                 <img className="img-fluid" src={gambar} alt="" />

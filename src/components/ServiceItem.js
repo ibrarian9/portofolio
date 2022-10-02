@@ -1,4 +1,5 @@
 import "./style/ServiceItem.css";
+import React from "react";
 
 function ServiceItem(props) {
   const classCard = "card-body " + props.warna;

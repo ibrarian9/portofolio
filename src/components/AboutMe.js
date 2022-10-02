@@ -1,5 +1,6 @@
 import ibra from "./img/ibra.jpg";
 import Button from "./Button";
+import React from "react";
 
 function AboutMe() {
   return (

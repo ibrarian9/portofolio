@@ -1,4 +1,5 @@
 import ServiceItem from "./ServiceItem";
+import React from "react";
 
 function Services() {
   return (
