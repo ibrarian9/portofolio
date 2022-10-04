@@ -17,7 +17,7 @@ function RecentWork() {
         <div className="row mt-5">
           {daftarGambar.map(function(gambar) {
             return (
-              <div className="col-4 mt-4 gambarku">
+              <div className="col-md-4 mt-4 gambarku">
                 <img className="img-fluid" src={gambar} alt="" />
               </div>
             );

@@ -7,10 +7,10 @@ function AboutMe() {
     <div id="About" className="section">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-6 text-center">
+          <div className="col-md-6 text-center">
             <img className="avatar" src={ibra} alt="profile" />
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <h1 className="mb-4">About Me</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
