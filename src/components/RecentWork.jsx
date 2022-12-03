@@ -1,6 +1,6 @@
 import React from "react";
 
-function RecentWork() {
+const RecentWork = () => {
   const daftarGambar = [
     "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
@@ -25,6 +25,7 @@ function RecentWork() {
         </div>
       </div>
     </div>
-  );
+  )
 }
+
 export default RecentWork;

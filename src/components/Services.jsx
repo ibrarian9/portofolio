@@ -1,7 +1,7 @@
 import ServiceItem from "./ServiceItem";
 import React from "react";
 
-function Services() {
+const Services = () => {
   return (
     <div id="Services" className="section bg-dark text-light py-5">
       <div className="container">
@@ -34,6 +34,7 @@ function Services() {
         </div>
       </div>
     </div>
-  );
+  )
 }
+
 export default Services;

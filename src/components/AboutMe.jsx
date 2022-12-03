@@ -1,8 +1,8 @@
 import ibra from "./img/ibra.jpg";
-import Button from "./Button";
+import Btn from './Button'
 import React from "react";
 
-function AboutMe() {
+const AboutMe = () => {
   return (
     <div id="About" className="section">
       <div className="container">
@@ -30,13 +30,14 @@ function AboutMe() {
             </p>
             <div class="row">
               <div class="col">
-                <Button text="Download CV" warna="primary" link="" />
+                <Btn text="Download CV" warna="primary" link="" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
+
 export default AboutMe;

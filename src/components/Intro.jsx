@@ -1,9 +1,9 @@
-import Button from "./Button";
+import Btn from './Button'
 import ibra from "./img/ibra.jpg";
 import React from "react";
 import Typed from "react-typed";
 
-function Intro() {
+const Intro = () => {
   return (
     <div id="Intro">
       <div className="section intro text-light">
@@ -34,12 +34,13 @@ function Intro() {
           </a>
           <div class="row">
             <div class="col">
-              <Button text="Hire Me" warna="primary" link="" />
+              <Btn text="Hire Me" warna="primary" link="" />
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
+
 export default Intro;
